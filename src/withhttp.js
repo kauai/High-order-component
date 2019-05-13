@@ -28,6 +28,7 @@ const withHttp = url => WrappedComponent => {
             <div>
                 <WrappedComponent
                 data={this.state.data}
+                { ...this.props }
                 />
             </div>
        )

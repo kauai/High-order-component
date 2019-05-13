@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Users/>
+          <Users style={{background:'red'}}/>
           <Comment/>
         </header>
       </div>
